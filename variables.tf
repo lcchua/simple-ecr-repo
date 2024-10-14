@@ -23,6 +23,7 @@ variable "ecr_repo_name" {
   default = "lcchua-ecr-repo"
 }
 
+
 variable "subnets_count" {
   description = "Number of public & private subnets"
   type        = map(number)
